@@ -1,0 +1,160 @@
+* {
+    /* max-width: 700px; */
+    margin: 0;
+    padding: 0;
+    max-width:1200px
+  }
+  
+  
+  /*body {
+      min-width: 500px;
+  }*/
+  
+  div {
+    border-radius: 1px;
+  }
+  
+  /* .header {
+    height: 40px;
+    width: 100%;
+    background-color: #ffcccc;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  .footer {
+    height: 50px;
+    width: 100%;
+    background-color: #ffcccc;
+    clear: both;
+    position: relative;
+  } */
+  
+  /* .left {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: left;
+    position: fixed;
+  }
+  
+  .right {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+  }
+  
+  p,
+  li {
+    font-family: 'Cormorant Garamond';
+  }
+  
+  .head {
+    font-size: 20px;
+  }
+  
+  #name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+  } */
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
+
+  
+   
+  #printBtn {
+    width: 20%;
+    background-color: lightgreen;
+  } 
+
+ .parentContainer{
+  display: flex;
+  background-color: rgb(162, 235, 235);
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top:40px;
+}
+
+#firstChild{
+  background-color: aliceblue;
+}
+
+#thirdChild{
+  background-color:lightgrey;
+  height: 600px;
+  width: 20px;
+  border-left: 3px  rgb(14, 183, 14) dotted;
+  border-right: 3px  rgb(14, 183, 14) dotted;
+  /* border: 4px red dashed; */
+}
+.header{
+  background-color: #ffcccc;
+  height: 40px;
+  width:100%;
+  position:fixed;
+  z-index: 1;
+}
+
+.footer{
+  position:absolute;
+  background: #ffcccc;
+  height: 45px;
+  width:100%;
+}
+.main_content{
+  position:relative;
+  width:1200px;
+  margin-left:13%;  
+}
+.resume,.container{
+  padding-top:4px;
+}
+.container{
+  width:500px;
+}
+
+.container-dark-theme{
+  background-color: black;
+  color: white;
+  min-width: 40%;
+  transition: all 0.6s ease-in-out
+}
+.container-light-theme{
+  background-color: aliceblue;
+  color: black;
+  min-width: 40%;
+  transition: all 0.6s ease-in-out
+}
+
+
+
